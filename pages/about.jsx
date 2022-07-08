@@ -10,15 +10,7 @@ export default function About(){
           I am a super cool software engineer.
         </h2>
         <h3 className={styles.lightPink}>I make super cool stuff.</h3>
-        <div>
-            <style jsx>{`
-                .orange {
-                    color: orange;
-                }
-            `}</style>
-
-            <h4 className="orange">I love to code.</h4>
-        </div>
+        <h4 className={styles.lightPink}>I love to code.</h4>
 
         <Image
           // Assume you are in the public folder
