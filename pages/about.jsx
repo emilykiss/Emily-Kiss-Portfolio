@@ -4,21 +4,20 @@ import styles from '../styles/About.module.css'
 
 export default function About(){
     return (
+      <main>
       <div>
-        <h1 className={`${styles.lightPink} ${styles.big}`}>About Emily</h1>
-        <h2 className={styles.lightPink}>
-          I am a super cool software engineer.
+        <h1 className="text-2xl mt-8 text-center font-semibold text-white">
+          I am not your average Software Engineer.
+        </h1>
+        <h2 className="text-2xl mt-8 text-center font-semibold text-white">
+          I am a driven Software Engineer with a fresh outlook on the industry.
+          My background in Anthropology empowers me to implement innovative,
+          clean code. I use my experience to bridge gaps between the world of
+          engineering and that of daily users, ultimately advancing human
+          connection and making technology more accessible for a wider range of
+          people.
         </h2>
-        <h3 className={styles.lightPink}>I make super cool stuff.</h3>
-        <h4 className={styles.lightPink}>I love to code.</h4>
-
-        <Image
-          // Assume you are in the public folder
-          src="/vector.jpg"
-          alt="This is a picture of me."
-          width={500}
-          height={500}
-        />
       </div>
+      </main>
     )
 }
