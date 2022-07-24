@@ -2,10 +2,10 @@
 export default function Navbar() {
 
   return (
-    <nav class="bg-white border-gray-200 sm:px-4 py-3 rounded">
+    <nav class="bg-white border-gray-200 py-3 rounded">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/contact" class="flex items-center">
-          <span class="self-start text-black hover:text-pink-400 text-xl font-semibold whitespace-nowrap">
+          <span class="self-start text-pink-400 font-semibold hover:text-black text-xl whitespace-nowrap">
             EK
           </span>
         </a>
@@ -31,7 +31,7 @@ export default function Navbar() {
           </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <ul class="flex flex-col mt-4 md:flex-row md:space-x-6 md:mt-0 md:text-sm md:font-medium">
             <li>
               <a
                 href="/"
