@@ -5,14 +5,14 @@ export default function Navbar() {
     <nav class="bg-white border-gray-200 sm:px-4 py-3 rounded">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/contact" class="flex items-center">
-          <span class="self-start text-pink-400 hover:text-pink-600 text-xl font-semibold whitespace-nowrap">
+          <span class="self-start text-black hover:text-pink-400 text-xl font-semibold whitespace-nowrap">
             EK
           </span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-pink-400 rounded-lg md:hidden hover:bg-gray-100 focus:ring-2 focus:ring-gray-200"
+          class="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -35,24 +35,24 @@ export default function Navbar() {
             <li>
               <a
                 href="/"
-                class="block py-2 pr-4 pl-3 text-pink-400 rounded md:p-0 hover:text-pink-600"
+                class="block py-2 pr-4 pl-3 text-black rounded md:p-0 hover:text-pink-400"
                 aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/about"
-                class="block py-2 pr-4 pl-3 text-pink-400 border-b border-gray-100 md:border-0 hover:text-pink-600 md:p-0"
               >
                 About
               </a>
             </li>
             <li>
               <a
+                href="/work"
+                class="block py-2 pr-4 pl-3 text-black border-b border-gray-100 md:border-0 hover:text-pink-400 md:p-0"
+              >
+                Work
+              </a>
+            </li>
+            <li>
+              <a
                 href="/contact"
-                class="block py-2 pr-4 pl-3 text-pink-400 border-b border-gray-100  md:border-0 hover:text-pink-600 md:p-0"
+                class="block py-2 pr-4 pl-3 text-black border-b border-gray-100  md:border-0 hover:text-pink-400 md:p-0"
               >
                 Contact
               </a>

@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="mt-8 text-center font-semibold tracking-tight text-white text-3xl">
-          Hello there, I'm Emily!
+          Hello there, I'm Emily Kiss!
         </h1>
         <span className="flex justify-center my-8">
           <Image
@@ -23,9 +23,21 @@ export default function Home() {
             className="rounded-full"
           />
         </span>
-        <h2 className="text-center font-semibold tracking-tight text-white text-3xl">
-          I am a full-stack Software Engineer, a blank, and a
+        <h2 className="text-center font-semibold tracking-tight text-white text-3xl mb-8">
+          I am a Full-Stack Software Engineer focused on creating outstanding
+          user experiences through clean, innovative code.
         </h2>
+        <h3 className="text-center font-semibold tracking-tight text-white text-2xl mx-24">
+          Thanks to my study background in international business and marketing
+          psychology, I connect UX/UI design with real business goals, while
+          providing delightful client experiences. Outside of my full-time
+          commitments, I work with a select freelance client base to create
+          amazing products and solutions. I am passionate about building and
+          designing thoughtful experiences to make sure your customers and users
+          are satisfied when they are using your products and services online. I
+          also love documenting my journey and sharing it with the community to
+          help others succeed and grow.
+        </h3>
       </main>
     </div>
   )
