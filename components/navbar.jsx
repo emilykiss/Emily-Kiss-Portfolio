@@ -2,7 +2,7 @@
 export default function Navbar() {
 
   return (
-    <nav class="bg-white border-gray-200 py-3 rounded">
+    <nav class="bg-white border-gray-200 py-5">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/contact" class="flex items-center">
           <span class="self-start text-pink-400 font-semibold hover:text-black text-xl whitespace-nowrap">
