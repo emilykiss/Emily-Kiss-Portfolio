@@ -62,7 +62,7 @@ export default function Contact() {
           </p>
         </div>
         <h1 className="mt-8 text-center text-3xl font-semibold text-pink-400">
-          Don't hesitate to reach out!
+          Do not hesitate to reach out!
         </h1>
       </div>
     )
