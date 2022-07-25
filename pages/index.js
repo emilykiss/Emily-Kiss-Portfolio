@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="mt-8 text-center font-semibold tracking-tight text-pink-400 text-3xl">
-          Hello there, I'm Emily Kiss!
+          Hello there, I am Emily Kiss!
         </h1>
         <span className="flex justify-center my-8">
           <Image
