@@ -26,8 +26,8 @@ export default function Work() {
                 src="/cm.png"
                 className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
                 alt="CheckMate"
-                width={250}
-                height={250}
+                width={600}
+                height={500}
               />
             </a>
           </p>
@@ -55,8 +55,8 @@ export default function Work() {
               src="/en.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
-              width={250}
-              height={250}
+              width={600}
+              height={500}
             />
           </a>
         </div>
@@ -79,8 +79,8 @@ export default function Work() {
               src="/sm.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
-              width={250}
-              height={250}
+              width={600}
+              height={500}
             />
           </a>
         </div>
@@ -104,8 +104,8 @@ export default function Work() {
               src="/pet.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
-              width={250}
-              height={250}
+              width={600}
+              height={500}
             />
           </a>
         </div>

@@ -17,8 +17,8 @@ export default function Contact() {
               src="/ma.jpg"
               className="w-[90px] h-[70px] rounded-lg hover:contrast-50"
               alt="mail"
-              width={250}
-              height={250}
+              width={100}
+              height={100}
             />
           </a>
         </p>
@@ -33,8 +33,8 @@ export default function Contact() {
               src="/white.png"
               className="w-[100px] h-[70px] rounded-full hover:contrast-50"
               alt="github"
-              width={250}
-              height={250}
+              width={150}
+              height={100}
             />
           </a>
         </p>
@@ -49,8 +49,8 @@ export default function Contact() {
               src="/lw.png"
               className="w-[70px] h-[70px] rounded-lg hover:contrast-50"
               alt="linkdin"
-              width={250}
-              height={250}
+              width={100}
+              height={100}
             />
           </a>
         </p>
@@ -65,8 +65,8 @@ export default function Contact() {
               src="/ig.png"
               className="w-[70px] h-[70px] rounded-lg hover:contrast-50"
               alt="instagram"
-              width={250}
-              height={250}
+              width={100}
+              height={100}
             />
           </a>
         </p>
