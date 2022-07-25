@@ -61,10 +61,12 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="/ig.png"
               className="w-[70px] h-[70px] rounded-lg hover:contrast-50"
               alt="instagram"
+              width={250}
+              height={250}
             />
           </a>
         </p>
