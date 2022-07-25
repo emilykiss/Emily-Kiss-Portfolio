@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Work() {
   return (
     <main>
@@ -20,10 +22,12 @@ export default function Work() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <Image
                 src="/cm.png"
                 className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
                 alt="CheckMate"
+                width={250}
+                height={250}
               />
             </a>
           </p>
@@ -35,11 +39,11 @@ export default function Work() {
               Ensemble is virtual closet organizer application created with:
             </p>
             <ul>
-            <li className="mb-6 text-white">JavaScript</li>
-            <li className="mb-6 text-white">MongoDB</li>
-            <li className="mb-6 text-white">Mongoose</li>
-            <li className="mb-6 text-white">Tailwind</li>
-            <li className="mb-6 text-white">React.js</li>
+              <li className="mb-6 text-white">JavaScript</li>
+              <li className="mb-6 text-white">MongoDB</li>
+              <li className="mb-6 text-white">Mongoose</li>
+              <li className="mb-6 text-white">Tailwind</li>
+              <li className="mb-6 text-white">React.js</li>
             </ul>
           </div>
           <a
@@ -47,10 +51,12 @@ export default function Work() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="/en.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
+              width={250}
+              height={250}
             />
           </a>
         </div>
@@ -69,10 +75,12 @@ export default function Work() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="/sm.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
+              width={250}
+              height={250}
             />
           </a>
         </div>
@@ -92,10 +100,12 @@ export default function Work() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="pet.png"
+            <Image
+              src="/pet.png"
               className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
               alt="mail"
+              width={250}
+              height={250}
             />
           </a>
         </div>
