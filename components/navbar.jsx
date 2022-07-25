@@ -1,14 +1,14 @@
-
+import Link from "next/link"
 export default function Navbar() {
 
   return (
     <nav className="bg-white border-gray-200 py-5">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/contact" className="flex items-center">
+        <Link href="/contact" className="flex items-center">
           <span className="self-start text-pink-400 font-semibold hover:text-black text-xl whitespace-nowrap">
             EK
           </span>
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -33,29 +33,29 @@ export default function Navbar() {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-6 md:mt-0 md:text-sm md:font-medium">
             <li>
-              <a
+              <Link
                 href="/"
                 className="block py-2 pr-4 pl-3 text-black rounded md:p-0 hover:text-pink-400"
                 aria-current="page"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/work"
                 className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 md:border-0 hover:text-pink-400 md:p-0"
               >
                 Work
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/contact"
                 className="block py-2 pr-4 pl-3 text-black border-b border-gray-100  md:border-0 hover:text-pink-400 md:p-0"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
