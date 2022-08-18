@@ -53,7 +53,7 @@ export default function Home() {
             Responsive Design | Adobe Creative Suite
           </h5>
         </div>
-        <h5 className="text-center font-semibold tracking-tight text-white text-2xl mt-10 sm:mx-24 md:mx-48">
+        {/* <h5 className="text-center font-semibold tracking-tight text-white text-2xl mt-10 sm:mx-24 md:mx-48">
           If you would like to hear more about me, access my resume{" "}
           <a
             href="/Users/emilykiss/Downloads/Emily%20Kiss%20-%20ATS%20Resume.pdf"
@@ -62,7 +62,7 @@ export default function Home() {
           >
             here.
           </a>
-        </h5>
+        </h5> */}
         <h6 className="text-center font-semibold tracking-tight text-white text-xl mb-10 sm:mx-24 md:mx-48">
           If you have any questions, please do not hesitate to{" "}
           <a
