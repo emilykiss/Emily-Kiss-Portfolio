@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/e.png" />
       </Head>
       <main>
-        <h1 className="mt-8 text-center font-semibold tracking-tight text-pink-400 text-3xl">
+        <h1 className="mt-8 text-center font-semibold tracking-tight text-white text-4xl">
           Hello there, I am Emily Kiss!
         </h1>
         <span className="flex justify-center my-8">
@@ -28,27 +28,30 @@ export default function Home() {
           user experiences through clean, innovative code. I use my experience
           to bridge gaps between the world of engineering and that of daily
           users, ultimately advancing human connection and making technology
-          more accessible for a wider range of people. With my bachelors degree in Anthropology and my background in social media marketing, I am passionate about translating ideas into smooth code and intuitive user experiences.
+          more accessible for a wider range of people. With my bachelors degree
+          in Anthropology and my background in social media marketing, I am
+          passionate about translating ideas into smooth code and intuitive user
+          experiences.
         </h2>
 
         <div className="">
           <h5 className="text-center font-semibold tracking-tight text-white mt-8 text-xl sm:mx-24 md:mx-48">
             Languages:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center">
+          <h5 className="text-pink-400 text-center font-bold">
             JavaScript | Python | HTML5 | CSS | SQL
           </h5>
           <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
             Frameworks:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center">
+          <h5 className="text-pink-400 text-center font-bold">
             Node.js | Express.js | Next.js | React.js | MongoDB | Django |
             Sequelize | PostgreSQL
           </h5>
           <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
             Other:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center">
+          <h5 className="text-pink-400 text-center font-bold">
             RESTful APIs | Mongoose | Heroku | Netlify | Tailwind | Bootstrap |
             Responsive Design | Adobe Creative Suite
           </h5>
@@ -63,7 +66,7 @@ export default function Home() {
             here.
           </a>
         </h5> */}
-        <h6 className="text-center font-semibold tracking-tight text-white text-xl mb-10 sm:mx-24 md:mx-48">
+        <h6 className="text-center font-semibold tracking-tight text-white text-xl mb-10 m-8 sm:mx-24 md:mx-48">
           If you have any questions, please do not hesitate to{" "}
           <a
             href="mailto:emilylanekiss@gmail.com? subject= subject text"
