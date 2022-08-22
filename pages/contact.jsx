@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Contact() {
   return (
     <div>
-      <h1 className="mt-8 text-center text-3xl font-semibold text-pink-400">
+      <h1 className="mt-8 text-center text-3xl font-semibold text-white">
         Interested in learning more about me?
       </h1>
       <div className="flex flex-row justify-around m-10">
@@ -71,8 +71,8 @@ export default function Contact() {
           </a>
         </p>
       </div>
-      <h1 className="mt-8 text-center text-3xl font-semibold text-pink-400">
-        Do not hesitate to reach out!
+      <h1 className="mt-8 text-center text-3xl font-semibold text-white">
+      
       </h1>
     </div>
   )

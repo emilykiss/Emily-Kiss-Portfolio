@@ -23,17 +23,27 @@ export default function Home() {
             className="rounded-full"
           />
         </span>
-        <h2 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
-          I am a Full-Stack Software Engineer focused on creating outstanding
-          user experiences through clean, innovative code. I use my experience
-          to bridge gaps between the world of engineering and that of daily
-          users, ultimately advancing human connection and making technology
-          more accessible for a wider range of people. With my bachelors degree
-          in Anthropology and my background in social media marketing, I am
-          passionate about translating ideas into smooth code and intuitive user
-          experiences.
+        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
+          I am a Full-Stack Software Engineer and recent college graduate
+          focused on creating outstanding user experiences through clean,
+          innovative code.
         </h2>
-
+        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
+          During my last semester of college, I enrolled in the
+          Software Engineering Immersive Program at General Assembly, where I became versed in
+          programming languages including JavaScript, SQL, CSS, and HTML and
+          utilized many useful frameworks, including React, Node, Express, and
+          MongoDB.
+        </h2>
+        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
+          I am a quick leaner, an innovative problem solver, and am not afraid
+          to pull up my sleeves, get to work, and immerse myself in new
+          challenges. I use my experience to bridge gaps between the world of
+          engineering and that of daily users, ultimately advancing human
+          connection and making technology more accessible for a wider range of
+          people.
+        </h2>
+        <h2 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48"></h2>
         <div className="">
           <h5 className="text-center font-semibold tracking-tight text-white mt-8 text-xl sm:mx-24 md:mx-48">
             Languages:{" "}
