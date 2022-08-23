@@ -29,11 +29,11 @@ export default function Home() {
           innovative code.
         </h2>
         <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
-          During my last semester of college, I enrolled in the
-          Software Engineering Immersive Program at General Assembly, where I became versed in
-          programming languages including JavaScript, SQL, CSS, and HTML and
-          utilized many useful frameworks, including React, Node, Express, and
-          MongoDB.
+          During my last semester of college, I enrolled in the Software
+          Engineering Immersive Program at General Assembly, where I became
+          versed in programming languages including JavaScript, SQL, CSS, and
+          HTML and utilized many useful frameworks, including React, Node,
+          Express, and MongoDB.
         </h2>
         <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
           I am a quick leaner, an innovative problem solver, and am not afraid
@@ -48,20 +48,20 @@ export default function Home() {
           <h5 className="text-center font-semibold tracking-tight text-white mt-8 text-xl sm:mx-24 md:mx-48">
             Languages:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center font-bold">
+          <h5 className="text-orange-300 text-center font-bold text-xl">
             JavaScript | Python | HTML5 | CSS | SQL
           </h5>
           <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
             Frameworks:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center font-bold">
+          <h5 className="text-orange-300 text-center font-bold text-xl">
             Node.js | Express.js | Next.js | React.js | MongoDB | Django |
             Sequelize | PostgreSQL
           </h5>
           <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
             Other:{" "}
           </h5>
-          <h5 className="text-pink-400 text-center font-bold">
+          <h5 className="text-orange-300 text-center font-bold text-xl">
             RESTful APIs | Mongoose | Heroku | Netlify | Tailwind | Bootstrap |
             Responsive Design | Adobe Creative Suite
           </h5>
@@ -80,7 +80,7 @@ export default function Home() {
           If you have any questions, please do not hesitate to{" "}
           <a
             href="mailto:emilylanekiss@gmail.com? subject= subject text"
-            className="text-pink-400 hover:text-white"
+            className="text-orange-300 hover:text-white"
           >
             reach out!
           </a>
