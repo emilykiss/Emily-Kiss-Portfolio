@@ -36,7 +36,7 @@ export default function Home() {
           Express, and MongoDB.
         </h2>
         <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
-          I am a quick leaner, an innovative problem solver, and am not afraid
+          I am a quick learner, an innovative problem solver, and am not afraid
           to pull up my sleeves, get to work, and immerse myself in new
           challenges. I use my experience to bridge gaps between the world of
           engineering and that of daily users, ultimately advancing human
