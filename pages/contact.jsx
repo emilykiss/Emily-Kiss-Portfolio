@@ -2,6 +2,7 @@ import Image from "next/image"
 
 export default function Contact() {
   return (
+    
     <div>
       <h1 className="animate-pulse tracking-widest m-8 py-6 text-center text-xl font-semibold text-lime-600">
         {`Haven't had enough yet, eh?`}

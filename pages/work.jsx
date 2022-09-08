@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <main>
       <h1 className="tracking-widest text-xl m-8 pb-8 text-center font-semibold text-lime-600 animate-pulse">
-        {`Ok, now let's get to the stuff you're really here for.`}
+        {`Ok, now let's get to the content you're really here for.`}
       </h1>
       <div className="">
         <div className="">
