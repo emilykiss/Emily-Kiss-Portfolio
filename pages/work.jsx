@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function Work() {
   return (
     <main>
-      <h1 className="text-4xl my-8 text-center font-semibold text-white">
-        Recent Work
+      <h1 className="tracking-widest text-xl m-8 pb-8 text-center font-semibold text-lime-600 animate-pulse">
+        {`Ok, now let's get to the stuff you're really here for.`}
       </h1>
       <div className="">
         <div className="">
@@ -16,7 +16,7 @@ export default function Work() {
             >
               <Image
                 src="/cm.png"
-                className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
+                className="w-[500px] h-[400px] hover:animate-pulse drop-shadow-2xl"
                 alt="CheckMate"
                 width={700}
                 height={600}
@@ -33,7 +33,7 @@ export default function Work() {
           >
             <Image
               src="/en.png"
-              className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
+              className="w-[500px] h-[400px] hover:animate-pulse drop-shadow-2xl"
               alt="mail"
               width={700}
               height={600}
@@ -49,7 +49,7 @@ export default function Work() {
           >
             <Image
               src="/sm.png"
-              className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
+              className="w-[500px] h-[400px] hover:animate-pulse drop-shadow-2xl"
               alt="mail"
               width={700}
               height={600}
@@ -65,7 +65,7 @@ export default function Work() {
           >
             <Image
               src="/pet.png"
-              className="w-[500px] h-[400px] hover:contrast-50 drop-shadow-2xl"
+              className="w-[500px] h-[400px] hover:animate-pulse drop-shadow-2xl"
               alt="mail"
               width={700}
               height={600}

@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
+import "@fontsource/press-start-2p"
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/e.png" />
       </Head>
       <main>
-        <h1 className="mt-8 text-center font-semibold tracking-tight text-white text-4xl">
-          Hello there, I am Emily Kiss!
+        <h1 className="mt-8 text-center font-semibold tracking-widest text-lime-600 text-2xl animate-pulse">
+          Funny seeing you here...
         </h1>
         <span className="flex justify-center my-8">
           <Image
@@ -20,67 +21,55 @@ export default function Home() {
             alt="This is a picture of me."
             width={250}
             height={250}
-            className="rounded-full"
+            className="hover:rotate-45"
           />
         </span>
-        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
-          I am a Full-Stack Software Engineer and recent college graduate
+        <h2 className="text-center font-semibold text-lime-600 m-8 sm:mx-24 md:mx-48 tracking-widest">
+          {`I'm Emily, a Full-Stack Software Engineer and recent college graduate
           focused on creating outstanding user experiences through clean,
-          innovative code.
+          innovative code.`}
         </h2>
-        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
+        <h2 className="text-center font-semibold text-lime-600 m-8 sm:mx-24 md:mx-48 tracking-widest">
           During my last semester of college, I enrolled in the Software
           Engineering Immersive Program at General Assembly, where I became
           versed in programming languages including JavaScript, SQL, CSS, and
           HTML and utilized many useful frameworks, including React, Node,
-          Express, and MongoDB.
+          Express, Bootstrap, Tailwind and MongoDB.
         </h2>
-        <h2 className="text-center font-semibold tracking-tight text-white text-2xl m-8 sm:mx-24 md:mx-48">
-          I am a quick learner, an innovative problem solver, and am not afraid
-          to pull up my sleeves, get to work, and immerse myself in new
-          challenges. I use my experience to bridge gaps between the world of
+        <h2 className="tracking-widest text-center font-semibold text-lime-600 m-8 sm:mx-24 md:mx-48">
+          {`Though I only have one year of experience under my belt, I'm a quick learner and an innovative problem solver. I'm not afraid to pull up my sleeves, get to work, and immerse myself in new challenges. I bring a fresh, youthful take to the field of software engineering and I hope to bridge gaps between the world of
           engineering and that of daily users, ultimately advancing human
-          connection and making technology more accessible for a wider range of
-          people.
+          connection and making technology more accessible for a wider range of people.`}
         </h2>
-        <h2 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48"></h2>
+        <h2 className="text-center font-semibold text-white text-xl sm:mx-24 md:mx-48"></h2>
         <div className="">
-          <h5 className="text-center font-semibold tracking-tight text-white mt-8 text-xl sm:mx-24 md:mx-48">
-            Languages:{" "}
+          <h5 className="text-center font-semibold tracking-widest text-lime-600 mt-8 text-xl sm:mx-24 md:mx-48">
+            Languages{" "}
           </h5>
-          <h5 className="text-orange-300 text-center font-bold text-xl">
+          <h5 className="text-lime-600 text-center font-bold m-6 animate-pulse">
             JavaScript | Python | HTML5 | CSS | SQL
           </h5>
-          <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
-            Frameworks:{" "}
+          <h5 className="text-center font-semibold tracking-widest text-lime-600 text-xl sm:mx-24 md:mx-48">
+            Frameworks{" "}
           </h5>
-          <h5 className="text-orange-300 text-center font-bold text-xl">
+          <h5 className="text-lime-600 text-center font-bold m-6 animate-pulse">
             Node.js | Express.js | Next.js | React.js | MongoDB | Django |
             Sequelize | PostgreSQL
           </h5>
-          <h5 className="text-center font-semibold tracking-tight text-white text-xl sm:mx-24 md:mx-48">
-            Other:{" "}
+          <h5 className="text-center font-semibold tracking-widest text-lime-600 text-xl sm:mx-24 md:mx-48">
+            Other{" "}
           </h5>
-          <h5 className="text-orange-300 text-center font-bold text-xl">
+          <h5 className="text-lime-600 text-center font-bold m-6 animate-pulse">
             RESTful APIs | Mongoose | Heroku | Netlify | Tailwind | Bootstrap |
             Responsive Design | Adobe Creative Suite
           </h5>
         </div>
-        {/* <h5 className="text-center font-semibold tracking-tight text-white text-2xl mt-10 sm:mx-24 md:mx-48">
-          If you would like to hear more about me, access my resume{" "}
-          <a
-            href="/Users/emilykiss/Downloads/Emily%20Kiss%20-%20ATS%20Resume.pdf"
-            target="blank"
-            className="text-pink-400 hover:text-white"
-          >
-            here.
-          </a>
-        </h5> */}
-        <h6 className="text-center font-semibold tracking-tight text-white text-xl mb-10 m-8 sm:mx-24 md:mx-48">
+
+        <h6 className="text-center font-semibold tracking-widest text-lime-600 mb-10 m-8 sm:mx-24 md:mx-48">
           If you have any questions, please do not hesitate to{" "}
           <a
             href="mailto:emilylanekiss@gmail.com? subject= subject text"
-            className="text-orange-300 hover:text-white"
+            className="text-lime-300 hover:text-lime-600"
           >
             reach out!
           </a>
