@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/emily.jpg" />
       </Head>
       <main>
-        <div class="split left">
+        <div className="split left">
           <div className="flex justify-end">
             <Link href="/">
               <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-black hover:text-yellow-300 hover:animate-pulse">
@@ -27,7 +27,7 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          <div class="centered">
+          <div className="centered">
             <h2></h2>
             <Image
               src="/emily.jpg"
@@ -43,7 +43,7 @@ export default function Home() {
           <br></br>
         </div>
 
-        <div class="split right">
+        <div className="split right">
           <div className="flex justify-start">
             <Link href="/work">
               <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
@@ -57,7 +57,7 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          <div class="centered">
+          <div className="centered">
             <h2 className="tracking-widest mb-4 text-7xl text-white">
               Emily Kiss
             </h2>
