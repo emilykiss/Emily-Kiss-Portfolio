@@ -57,9 +57,6 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          {/* <div className="border-y-2 border-white flex justify-center text-white tracking-widest text-lg m-2">
-            UX Designer
-          </div> */}
           <div class="centered">
             <h2 className="tracking-widest mb-4 text-7xl text-white">
               Emily Kiss
