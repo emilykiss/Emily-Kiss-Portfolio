@@ -27,9 +27,6 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          {/* <div className="border-y-2 border-black text-black tracking-widest text-lg flex justify-center m-2">
-            Software Engineer
-          </div> */}
           <div class="centered">
             <h2></h2>
             <Image
