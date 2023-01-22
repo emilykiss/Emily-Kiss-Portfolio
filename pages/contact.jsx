@@ -1,10 +1,35 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Contact() {
   return (
-    
     <div>
-      <h1 className="animate-pulse tracking-widest m-8 py-6 text-center text-xl font-semibold text-lime-600">
+      <div className="flex justify-center">
+        <Link href="/">
+          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+            Home
+          </span>
+        </Link>
+
+        <Link href="/about">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+            About
+          </span>
+        </Link>
+        <Link href="/work">
+          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+            Work
+          </span>
+        </Link>
+
+        <Link href="/contact">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+            Contact
+          </span>
+        </Link>
+      </div>
+
+      <h1 className="tracking-widest m-8 py-6 text-center text-4xl text-white">
         {`Haven't had enough yet, eh?`}
       </h1>
       <div className="flex flex-row justify-around m-10">
@@ -16,7 +41,7 @@ export default function Contact() {
           >
             <Image
               src="/ma.jpg"
-              className="w-[90px] h-[70px] rounded-lg hover:animate-spin"
+              className="w-[90px] h-[70px] rounded-lg "
               alt="mail"
               width={100}
               height={100}
@@ -32,7 +57,7 @@ export default function Contact() {
           >
             <Image
               src="/white.png"
-              className="w-[100px] h-[70px] rounded-full hover:animate-spin"
+              className="w-[100px] h-[70px] rounded-full "
               alt="github"
               width={150}
               height={100}
@@ -48,7 +73,7 @@ export default function Contact() {
           >
             <Image
               src="/lw.png"
-              className="w-[70px] h-[70px] rounded-lg hover:animate-spin"
+              className="w-[70px] h-[70px] rounded-lg "
               alt="linkdin"
               width={100}
               height={100}
@@ -64,7 +89,7 @@ export default function Contact() {
           >
             <Image
               src="/ig.png"
-              className="w-[70px] h-[70px] rounded-lg hover:animate-spin"
+              className="w-[70px] h-[70px] rounded-lg "
               alt="instagram"
               width={100}
               height={100}

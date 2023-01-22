@@ -25,8 +25,8 @@ class MyDocument extends Document {
         <Head>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
-            rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Press+Start+2P&display=swap" rel="stylesheet"/>
+            
         </Head>
         <body>
           <Main />
