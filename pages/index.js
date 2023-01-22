@@ -78,57 +78,6 @@ export default function Home() {
             </h6>
           </div>
         </div>
-        <div class="relative">
-          <h2 className="text-center text-black mt-96 tracking-widest">
-            {`I'm Emily, a UX Engineer focused on creating outstanding user experiences through clean,
-          innovative code and empathetic designs.`}
-          </h2>
-        </div>
-
-        <span className="flex justify-center my-8"></span>
-        <h2 className="text-center text-black m-8 sm:mx-24 md:mx-48 tracking-widest">
-          {`I'm Emily, a UX Engineer and recent college graduate
-          focused on creating outstanding user experiences through clean,
-          innovative code.`}
-        </h2>
-        <h2 className="text-center text-black m-8 sm:mx-24 md:mx-48 tracking-widest">
-          During my last semester of college, I enrolled in the Software
-          Engineering Immersive Program at General Assembly, where I became
-          versed in programming languages including JavaScript, SQL, CSS, and
-          HTML and utilized many useful frameworks, including React, Node,
-          Express, Bootstrap, Tailwind and MongoDB.
-        </h2>
-        <h2 className="text-center text-black m-8 sm:mx-24 md:mx-48 tracking-widest">
-          {`After graduating from General Assembly, I enrolled in Google's UX Design Professional Certificate Course, where I learned about the processes used to design high quality and user focused applications. `}
-        </h2>
-        <h2 className="tracking-widest text-center  text-black m-8 sm:mx-24 md:mx-48">
-          {`Though I only have one year of experience under my belt, I'm a quick learner and an innovative problem solver. I'm not afraid to pull up my sleeves, get to work, and immerse myself in new challenges. I bring a fresh, youthful take to the field of UX Engineering and I hope to bridge gaps between the world of
-          engineering and that of daily users, ultimately advancing human
-          connection and making technology more accessible for a wider range of people.`}
-        </h2>
-        <h2 className="text-center font-semibold text-white text-xl sm:mx-24 md:mx-48"></h2>
-        <div className="">
-          <h5 className="text-center tracking-widest text-white mt-6 text-xl sm:mx-24 md:mx-48">
-            Languages{" "}
-          </h5>
-          <h5 className="text-yellow-400 tracking-widest text-center m-6">
-            JavaScript | Python | HTML5 | CSS | SQL
-          </h5>
-          <h5 className="text-center tracking-widest text-black text-xl sm:mx-24 md:mx-48">
-            Frameworks{" "}
-          </h5>
-          <h5 className="text-black tracking-widest text-center m-6">
-            Node.js | Express.js | Next.js | React.js | MongoDB | Django |
-            Sequelize | PostgreSQL
-          </h5>
-          <h5 className="text-center tracking-widest text-black text-xl sm:mx-24 md:mx-48">
-            Other Skills{" "}
-          </h5>
-          <h5 className="text-black tracking-widest text-center  m-6">
-            RESTful APIs | Mongoose | Heroku | Netlify | Tailwind | Bootstrap |
-            Responsive Design | Adobe Creative Suite
-          </h5>
-        </div>
       </main>
     </div>
   )
