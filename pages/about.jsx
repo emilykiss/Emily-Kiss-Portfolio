@@ -28,14 +28,73 @@ export default function About() {
           </span>
         </Link>
       </div>
-      <h1 className="tracking-widest m-8 py-6 text-center text-4xl text-white">
-        {`About`}
-      </h1>
-
-      <h2 className="text-center text-xl text-white m-8 sm:mx-24 md:mx-48 tracking-widest">
-        {`Hey there! I'm Emily, and I create outstanding user experiences through clean,
-          innovative code and user-focused designs.`}
+    
+      <h2 className="text-center text-4xl mt-8 mb-4 text-white sm:mx-24 md:mx-48 tracking-widest">
+        {`Hello there, I'm Emily!`}
       </h2>
+
+      <div className="text-white">
+        <p className="flex justify-center">
+          <Image
+            src="/em.jpg"
+            className="w-[500px] h-[400px]"
+            alt="emily"
+            width={100}
+            height={100}
+          />
+        </p>
+      </div>
+
+      <h2 className="text-center text-2xl text-white m-8 sm:mx-24 md:mx-48 tracking-widest">
+        {`Besides for creating outstanding user experiences through clean code and user-focused designs,`}
+      </h2>
+
+      <div className="">
+        <h2 className="text-center text-xl text-white sm:mx-24 md:mx-48 tracking-widest">
+          {`I'm a pastry enthusiast,`}
+        </h2>
+        <div className="text-white p-6">
+          <p className="flex justify-center">
+            <Image
+              src="/pastry.jpeg"
+              className="w-[500px] h-[400px] drop-shadow-2xl"
+              alt="emily"
+              width={250}
+              height={320}
+            />
+          </p>
+        </div>
+        <h2 className="text-center text-xl text-white sm:mx-24 md:mx-48 tracking-widest">
+          {`dog mom,`}
+        </h2>
+        <div className="text-white p-6">
+          <p className="flex justify-center">
+            <Image
+              src="/ruby.jpeg"
+              className="w-[500px] h-[400px] drop-shadow-2xl"
+              alt="emily"
+              width={250}
+              height={400}
+            />
+          </p>
+        </div>
+
+        <h2 className="text-center text-xl text-white sm:mx-24 md:mx-48 tracking-widest">
+          {`and avid traveler.`}
+        </h2>
+        <div className="text-white p-6">
+          <p className="flex justify-center">
+            <Image
+              src="/h.jpeg"
+              className="w-[500px] h-[400px] drop-shadow-2xl"
+              alt="emily"
+              width={250}
+              height={350}
+            />
+          </p>
+        </div>
+      </div>
+
       <br></br>
       <h2 className="text-center text-white sm:mx-24 md:mx-48 tracking-widest">
         {`During my last semester of college, I enrolled in the Software
@@ -61,8 +120,8 @@ export default function About() {
         Other Skills{" "}
       </h5>
       <h5 className="text-yellow-300 tracking-widest text-center  m-6">
-        Figma | RESTful APIs | Mongoose | Heroku | Sketch | Tailwind | Bootstrap |
-        Responsive Design | Adobe Creative Suite
+        Figma | RESTful APIs | Mongoose | Heroku | Sketch | Tailwind | Bootstrap
+        | Responsive Design | Adobe Creative Suite
       </h5>
     </div>
   )
