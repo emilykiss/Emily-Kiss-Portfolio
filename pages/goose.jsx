@@ -92,7 +92,7 @@ export default function Goose() {
       </h6>
 
       <div className="flex justify-around">
-        <div class="grid grid-cols-2 gap-4 place-content-center h-48">
+        <div className="grid grid-cols-2 gap-4 place-content-center h-48">
           <div className="mt-8 mb-2 mx-8 tracking-widest text-center text-bold text-xl text-yellow-300">
             My Role
             <div className="text-white text-sm">
