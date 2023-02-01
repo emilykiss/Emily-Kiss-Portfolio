@@ -96,8 +96,8 @@ export default function Goose() {
           <div className="mt-8 mb-2 mx-8 tracking-widest text-center text-bold text-xl text-yellow-300">
             My Role
             <div className="text-white text-sm">
-              Solo Project: I was responsible for everything from start to
-              finish.
+              {`Solo Project: I was responsible for everything from start to
+              finish.`}
             </div>
           </div>
           <div className="mt-8 mb-2 mx-8 tracking-widest text-center justify-end text-bold text-xl text-yellow-300">

@@ -49,7 +49,7 @@ export default function About() {
         {`Besides for creating outstanding user experiences through clean code and user-focused designs, I'm a`}
       </h2>
 
-      <div class="grid grid-cols-4 gap-1">
+      <div className="grid grid-cols-4 gap-1">
         <div className="mb-2 mx-8 tracking-widest text-center text-bold text-lg text-yellow-300">
           {`pastry enthusiast,`}
           <div className="text-white text-sm">
