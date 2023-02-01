@@ -34,7 +34,7 @@ export default function Home() {
               alt="This is a picture of me."
               width={1400}
               height={1450}
-              className="opacity-100 "
+              className="opacity-100"
             />
           </div>
           <br></br>

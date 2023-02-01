@@ -35,12 +35,18 @@ a {
 .left {
   left: 0;
   background-color: rgb(254, 251, 245);
+  border-left: solid 2rem;
+  border-top: solid 2rem;
+  border-bottom: solid 2rem;
 }
 
 /* Control the right side */
 .right {
   right: 0;
   background-color:rgb(50, 50, 50);
+  border-top: solid 2rem;
+  border-right: solid 2rem;
+  border-bottom: solid 2rem;
 }
 
 /* If you want the content centered horizontally and vertically */
