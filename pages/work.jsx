@@ -22,7 +22,7 @@ export default function Work() {
         <h2 className="tracking-widest flex justify-center font-bold pt-8 text-xl text-black">
           GooseCake
         </h2>
-        <div className="m-8">
+        <div className="m-8 flex justify-center">
           <Image
             src="/coffee.jpg"
             className="hover:animate-pulse drop-shadow-2xl "
@@ -46,7 +46,7 @@ export default function Work() {
           Supermarket Sweep
         </h2>
 
-        <div className="m-8">
+        <div className="m-8 flex justify-center">
           <Image
             src="/sm.png"
             className="hover:animate-pulse drop-shadow-2xl"
@@ -89,7 +89,7 @@ export default function Work() {
         <h2 className="tracking-widest flex justify-center mb-3 pt-8 text-bold text-xl text-white">
           CheckMate
         </h2>
-        <div className="m-8">
+        <div className="m-8 flex justify-center">
           <Image
             src="/cm.png"
             className="hover:animate-pulse drop-shadow-2xl"
@@ -117,7 +117,7 @@ export default function Work() {
         <h2 className="tracking-widest flex justify-center mb-3 pt-8 text-bold text-xl text-white">
           Ensemble
         </h2>
-        <div className="m-8">
+        <div className="m-8 flex justify-center">
           <Image
             src="/en.png"
             className="hover:animate-pulse drop-shadow-2xl"
