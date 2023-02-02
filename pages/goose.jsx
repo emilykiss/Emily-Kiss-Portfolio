@@ -118,6 +118,13 @@ export default function Goose() {
           </div>
         </div>
       </div>
+
+      <div className="font-bold p-4 text-2xl my-4 text-yellow-300 text-center">
+        Background
+      </div>
+      <div className="mt-4 mb-2 mx-10 text-center tracking-widest text-bold text-md text-white">
+        {`GooseCake Bakery is a small, cozy bakery located in Los Angeles, California. The owner, Gabriel Klein, wanted to create a mobile app that's fun and easy to use. I was asked to make the app intuitive, and to create the ability for users to schedule their pickup time in advance.`}
+      </div>
       <div className="mt-8 flex justify-around bg-black">
         <Image
           src="/pac.jpg"
@@ -140,12 +147,6 @@ export default function Goose() {
           width={200}
           height={280}
         />
-      </div>
-      <div className="font-bold p-4 text-2xl my-4 text-yellow-300 text-center">
-        Background
-      </div>
-      <div className="mt-4 mb-2 mx-10 text-center tracking-widest text-bold text-md text-white">
-        {`GooseCake Bakery is a small, cozy bakery located in Los Angeles, California. The owner, Gabriel Klein, wanted to create a mobile app that's fun and easy to use. I was asked to make the app intuitive, and to create the ability for users to schedule their pickup time in advance.`}
       </div>
       {/* <div className="font-bold p-4 text-2xl my-4 text-yellow-300 text-center">
         Developement Process
