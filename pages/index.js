@@ -61,7 +61,7 @@ export default function Home() {
             <h2 className="tracking-widest mb-4 text-7xl text-white">
               Emily Kiss
             </h2>
-            <p className="tracking-widest text-white text-4xl italic mb-8">UX Engineer</p>
+            <p className="tracking-widest text-white text-4xl italic mb-8">UX Designer</p>
             <h6 className="text-center tracking-widest m-6">
               <a
                 href="mailto:emilylanekiss@gmail.com? subject= subject text"
