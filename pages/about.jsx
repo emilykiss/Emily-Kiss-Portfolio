@@ -50,51 +50,51 @@ export default function About() {
       </h2>
 
       <div className="grid grid-cols-4 gap-1">
-        <div className="mb-2 mx-8 tracking-widest text-center text-bold text-lg text-yellow-300">
+        <div className="mb-2 mx-8 tracking-widest text-center text-bold text-md text-yellow-300">
           {`pastry enthusiast,`}
           <div className="text-white text-sm">
             <Image
               src="/pastry.jpeg"
               className="w-[500px] h-[400px] drop-shadow-2xl"
               alt="emily"
-              width={200}
-              height={260}
+              width={120}
+              height={160}
             />
           </div>
         </div>
-        <div className="mb-2 mx-8 tracking-widest text-center justify-end text-bold text-lg text-yellow-300">
+        <div className="mb-2 mx-8 tracking-widest text-center justify-end text-bold text-md text-yellow-300">
           {`dog mom,`}
           <div className="text-white text-sm">
             <Image
               src="/ruby.png"
               className="w-[500px] h-[400px] drop-shadow-2xl"
               alt="emily"
-              width={200}
-              height={260}
+              width={120}
+              height={160}
             />
           </div>
         </div>
-        <div className="mb-2 mx-8 tracking-widest text-center  text-bold text-lg text-yellow-300">
+        <div className="mb-2 mx-8 tracking-widest text-center  text-bold text-md text-yellow-300">
           {`meme creator,`}
           <div className="text-white text-sm">
             <Image
               src="/meme.jpg"
               className="w-[500px] h-[400px] drop-shadow-2xl"
               alt="emily"
-              width={200}
-              height={260}
+              width={120}
+              height={160}
             />
           </div>
         </div>
-        <div className="mb-2 mx-8 tracking-widest text-center justify-end text-bold text-lg text-yellow-300">
+        <div className="mb-2 mx-8 tracking-widest text-center justify-end text-bold text-md text-yellow-300">
           {`and avid traveler.`}
           <div className="text-white text-sm">
             <Image
               src="/h.jpeg"
               className="w-[500px] h-[400px] drop-shadow-2xl"
               alt="emily"
-              width={200}
-              height={260}
+              width={120}
+              height={160}
             />
           </div>
         </div>

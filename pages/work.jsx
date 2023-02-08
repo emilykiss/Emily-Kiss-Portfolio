@@ -104,13 +104,13 @@ export default function Work() {
         </h2>
         <h6 className="text-center tracking-widest m-6">
           <a
-            href="https://62bf355e355a9e0c54111843--exquisite-liger-b9bd49.netlify.app/profileselection"
+            href="https://www.figma.com/file/TBExpBCiLFOpg2Gn4taAV5/CheckMate?node-id=0%3A1&t=i5zkiQY0wIZ0aZ6J-1"
             target="_blank"
             rel="noopener noreferrer"
           >
             {" "}
             <span className="tracking-widest text-white text-xs hover:text-black hover:bg-white rounded-full py-2 px-4 border border-white">
-              Get Started
+              Check it out!
             </span>
           </a>
         </h6>
