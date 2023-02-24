@@ -91,7 +91,160 @@ export default function Goose() {
         </a>
       </h6>
 
-      <div className="flex justify-around">
+      <div className="text-center">
+        <Image
+          src="/one.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/two.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/three.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/four.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/five.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/six.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/sevenn.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/eight.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/nine.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/ten.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/eleven.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/twelve.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/thirteen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/fourteen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/fifteen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/sixteen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      <div className="text-center">
+        <Image
+          src="/seventeen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+
+        <Image
+          src="/eighteen.png"
+          className="drop-shadow-2xl"
+          alt="cr"
+          width={600}
+          height={350}
+        />
+      </div>
+      {/* <div className="flex justify-around">
         <div className="grid grid-cols-2 gap-4 place-content-center h-48">
           <div className="mt-8 mb-2 mx-8 tracking-widest text-center text-bold text-xl text-yellow-300">
             My Role
@@ -124,7 +277,7 @@ export default function Goose() {
       </div>
       <div className="mt-4 mb-2 mx-10 text-center tracking-widest text-bold text-md text-white">
         {`GooseCake Bakery is a small, cozy bakery located in Los Angeles, California. The owner, Gabriel Klein, wanted to create a mobile app that's fun and easy to use. I was asked to make the app intuitive, and to create the ability for users to schedule their pickup time in advance.`}
-      </div>
+      </div> */}
       <div className="mt-8 flex justify-around bg-black">
         <Image
           src="/pac.jpg"
