@@ -6,32 +6,32 @@ export default function Pet() {
     <div>
       <div className="flex justify-center">
         <Link href="/">
-          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             Home
           </span>
         </Link>
 
         <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             About
           </span>
         </Link>
         <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             Work
           </span>
         </Link>
 
         <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             Contact
           </span>
         </Link>
       </div>
-      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-yellow-300">
+      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-blue-200">
         Pet Connection
       </h2>
-      <h2 className="tracking-widest flex justify-center font-bold text-xl p-2 text-white">
+      <h2 className="tracking-widest flex justify-center font-bold text-xl p-2 text-blue-200">
         Mobile App Design
       </h2>
       <div className="bg-black p-6 text-center">
@@ -85,7 +85,7 @@ export default function Pet() {
           rel="noopener noreferrer"
         >
           {" "}
-          <span className="tracking-widest text-grey-600 text-xs bg-yellow-300 hover:text-black hover:bg-white rounded-full py-2 px-4">
+          <span className="tracking-widest text-black font-bold text-xs bg-blue-200 hover:text-black hover:bg-white rounded-full py-2 px-4">
             Figma Prototype
           </span>
         </a>
