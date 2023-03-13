@@ -16,13 +16,13 @@ export default function Home() {
         <div className="split left">
           <div className="flex justify-end">
             <Link href="/">
-              <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-black hover:text-pink-400 hover:animate-pulse">
+              <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
                 Home
               </span>
             </Link>
 
             <Link href="/work">
-              <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-black hover:text-pink-400 hover:animate-pulse">
+              <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
                 Work
               </span>
             </Link>
@@ -34,7 +34,7 @@ export default function Home() {
               alt="This is a picture of me."
               width={1400}
               height={1450}
-              className="opacity-100"
+              className="opacity-80 rounded-2xl"
             />
           </div>
           <br></br>
@@ -46,28 +46,28 @@ export default function Home() {
         <div className="split right">
           <div className="flex justify-start">
             <Link href="/about">
-              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
+              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
                 About
               </span>
             </Link>
 
             <Link href="/contact">
-              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
+              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
                 Contact
               </span>
             </Link>
           </div>
           <div className="centered">
-            <h2 className="tracking-widest mb-4 text-7xl text-white">
+            <h2 className="tracking-widest mb-4 text-7xl text-blue-400">
               Emily Kiss
             </h2>
-            <p className="tracking-widest text-white text-4xl italic mb-8">
+            <p className="tracking-widest text-blue-400 text-4xl italic mb-8">
               UX Designer
             </p>
             <h6 className="text-center tracking-widest m-6">
               <a
                 href="mailto:emilylanekiss@gmail.com? subject= subject text"
-                className="tracking-widest text-white hover:text-black hover:bg-white rounded-full py-2 px-4 border border-white"
+                className="tracking-widest text-white hover:bg-blue-300 bg-blue-400  rounded-full py-2 px-4"
               >
                 Collaborate
               </a>
