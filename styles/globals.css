@@ -45,7 +45,7 @@ a {
 /* Control the right side */
 .right {
   right: 0;
-  background-color:rgba(241, 242, 247, 0.547);
+  background-color:rgba(201, 205, 223, 0.547);
   border-top: solid 2rem lightgreen;
   border-right: solid 2rem lightgreen;
   border-bottom: solid 2rem lightgreen;
