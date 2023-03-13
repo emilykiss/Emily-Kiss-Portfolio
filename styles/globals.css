@@ -7,8 +7,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:'Bodoni Moda', arial;
-  background-color:rgb(50, 50, 50)
+  /* font-family:'Bodoni Moda', arial; */
+  background-color:black
 }
 
 a {

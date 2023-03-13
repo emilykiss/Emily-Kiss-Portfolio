@@ -6,30 +6,30 @@ export default function Contact() {
     <div>
       <div className="flex justify-center">
         <Link href="/">
-          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
             Home
           </span>
         </Link>
 
         <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
             About
           </span>
         </Link>
         <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
             Work
           </span>
         </Link>
 
         <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-yellow-300 hover:animate-pulse">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
             Contact
           </span>
         </Link>
       </div>
 
-      <h1 className="tracking-widest m-8 py-6 text-center text-4xl text-white">
+      <h1 className="tracking-widest m-8 py-6 text-center font-bold text-4xl text-pink-400">
         {`Haven't had enough yet, eh?`}
       </h1>
       <div className="flex flex-row justify-around m-10">
