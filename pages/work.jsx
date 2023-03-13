@@ -12,14 +12,15 @@ export default function Work() {
           </span>
         </Link>
 
-        <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
-            About
-          </span>
-        </Link>
         <Link href="/work">
           <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
             Work
+          </span>
+        </Link>
+
+        <Link href="/about">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
+            About
           </span>
         </Link>
 
@@ -30,7 +31,53 @@ export default function Work() {
         </Link>
       </div>
 
-      <h2 className="tracking-widest flex justify-center font-bold pt-12 text-4xl text-pink-400">
+      <div className="grid grid-cols-2 gap-1">
+        <div>
+          <h2 className="tracking-widest flex justify-center text-center font-bold pt-12 text-3xl pl-4 text-pink-400">
+            GooseCake Bakery
+          </h2>
+          <div className="m-8 flex justify-center">
+            <Image
+              src="/s2.png"
+              className="rounded-3xl  drop-shadow-2xl "
+              alt="sb"
+              width={300}
+              height={600}
+            />
+          </div>
+          <h6 className="text-center tracking-widest m-6">
+            <Link href="/goose">
+              <span className="tracking-widest text-white text-xs hover:text-pink-400 hover:bg-white bg-pink-400 rounded-full py-2 px-4">
+                Case Study
+              </span>
+            </Link>
+          </h6>
+        </div>
+        <div>
+          <h2 className="tracking-widest flex justify-center text-center font-bold pt-12 text-3xl text-pink-400">
+            Pet Connection
+          </h2>
+          <div className="m-8 flex justify-center">
+            <Image
+              src="/bruce.png"
+              className="rounded-3xl  drop-shadow-2xl "
+              alt="sb"
+              width={300}
+              height={600}
+            />
+          </div>
+          <h6 className="text-center tracking-widest m-6">
+            <Link href="/pet">
+              <span className="tracking-widest text-white bg-pink-400 text-xs hover:text-pink-400 hover:bg-white rounded-full py-2 px-4">
+                Case Study
+              </span>
+            </Link>
+          </h6>
+        </div>
+       
+      </div>
+
+      {/* <h2 className="tracking-widest flex justify-center font-bold pt-12 text-4xl text-pink-400">
         GooseCake Bakery
       </h2>
       <div className="m-8 flex justify-center">
@@ -48,9 +95,9 @@ export default function Work() {
             Case Study
           </span>
         </Link>
-      </h6>
+      </h6> */}
 
-      <h2 className="tracking-widest flex justify-center font-bold pt-8 text-4xl text-pink-400">
+      {/* <h2 className="tracking-widest flex justify-center font-bold pt-8 text-4xl text-pink-400">
         Pet Connection
       </h2>
       <div className="m-8 flex justify-center">
@@ -68,9 +115,9 @@ export default function Work() {
             Case Study
           </span>
         </Link>
-      </h6>
+      </h6> */}
 
-      <h2 className="tracking-widest flex justify-center mb-3 pt-8 font-bold text-4xl text-pink-400">
+      <h2 className="tracking-widest flex justify-center mb-3 pt-8 font-bold text-3xl text-pink-400">
         CheckMate
       </h2>
       <div className="m-8 flex justify-center">
@@ -110,7 +157,7 @@ export default function Work() {
           </span>
         </a>
       </h6>
-      <h2 className="tracking-widest flex justify-center mb-3 pt-8 font-bold text-4xl text-pink-400">
+      <h2 className="tracking-widest flex justify-center mb-3 pt-8 font-bold text-3xl text-pink-400">
         Ensemble
       </h2>
       <div className="m-8 flex justify-center">

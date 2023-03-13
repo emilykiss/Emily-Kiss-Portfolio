@@ -11,17 +11,16 @@ export default function Pet() {
           </span>
         </Link>
 
-        <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
-            About
-          </span>
-        </Link>
         <Link href="/work">
           <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             Work
           </span>
         </Link>
-
+        <Link href="/about">
+          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
+            About
+          </span>
+        </Link>
         <Link href="/contact">
           <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-200 hover:animate-pulse">
             Contact

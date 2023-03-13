@@ -21,9 +21,9 @@ export default function Home() {
               </span>
             </Link>
 
-            <Link href="/about">
-              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-black hover:text-pink-400 hover:animate-pulse">
-                About
+            <Link href="/work">
+              <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-black hover:text-pink-400 hover:animate-pulse">
+                Work
               </span>
             </Link>
           </div>
@@ -45,9 +45,9 @@ export default function Home() {
 
         <div className="split right">
           <div className="flex justify-start">
-            <Link href="/work">
-              <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
-                Work
+            <Link href="/about">
+              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-pink-400 hover:animate-pulse">
+                About
               </span>
             </Link>
 
@@ -61,7 +61,9 @@ export default function Home() {
             <h2 className="tracking-widest mb-4 text-7xl text-white">
               Emily Kiss
             </h2>
-            <p className="tracking-widest text-white text-4xl italic mb-8">UX Designer</p>
+            <p className="tracking-widest text-white text-4xl italic mb-8">
+              UX Designer
+            </p>
             <h6 className="text-center tracking-widest m-6">
               <a
                 href="mailto:emilylanekiss@gmail.com? subject= subject text"
