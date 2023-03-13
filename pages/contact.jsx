@@ -32,75 +32,51 @@ export default function Contact() {
       <h1 className="m-8 py-6 text-center text-4xl text-blue-400">
         {`Haven't had enough yet, eh?`}
       </h1>
-      <div className="flex flex-row justify-around m-10">
-        <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
-          <a
-            href="mailto:emilylanekiss@gmail.com? subject= subject text"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Email
-            {/* <Image
-              src="/ma.jpg"
-              className="w-[90px] h-[70px] rounded-lg "
-              alt="mail"
-              width={100}
-              height={100}
-            /> */}
-          </a>
-        </p>
 
-        <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
-          <a
-            href="https://github.com/emilykiss"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-            {/* <Image
-              src="/white.png"
-              className="w-[100px] h-[70px] rounded-full "
-              alt="github"
-              width={150}
-              height={100}
-            /> */}
-          </a>
-        </p>
+      <marquee>
+        <div className="flex flex-row justify-around m-10">
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+            <a
+              href="mailto:emilylanekiss@gmail.com? subject= subject text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
+          </p>
 
-        <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
-          <a
-            href="https://www.linkedin.com/in/emily-kiss/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-            {/* <Image
-              src="/lw.png"
-              className="w-[70px] h-[70px] rounded-lg "
-              alt="linkdin"
-              width={100}
-              height={100}
-            /> */}
-          </a>
-        </p>
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+            <a
+              href="https://github.com/emilykiss"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
 
-        <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
-          <a
-            href="https://www.instagram.com/emilylanekiss/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-            {/* <Image
-              src="/ig.png"
-              className="w-[70px] h-[70px] rounded-lg "
-              alt="instagram"
-              width={100}
-              height={100}
-            /> */}
-          </a>
-        </p>
-      </div>
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+            <a
+              href="https://www.linkedin.com/in/emily-kiss/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
+
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+            <a
+              href="https://www.instagram.com/emilylanekiss/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </p>
+        </div>
+      </marquee>
+     
       <h1 className="mt-8 text-center text-3xl font-semibold text-white"></h1>
     </div>
   )
