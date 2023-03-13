@@ -32,8 +32,8 @@ export default function Work() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-2 gap-1 bg-blue-100">
-        <div>
+      <div className="grid grid-cols-2 gap-1">
+        <div className=" bg-blue-100 rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-3xl pl-4 text-blue-400">
             GooseCake Bakery
           </h2>
@@ -54,7 +54,7 @@ export default function Work() {
             </Link>
           </h6>
         </div>
-        <div>
+        <div className="border bg-blue-100 rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-3xl text-blue-400">
             Pet Connection
           </h2>
@@ -77,10 +77,8 @@ export default function Work() {
         </div>
       </div>
 
-  
-
-      <div className="grid grid-cols-2 gap-1 bg-blue-100">
-        <div>
+      <div className="grid grid-cols-2 gap-1">
+        <div className="bg-blue-100 rounded-xl m-10">
           <h2 className="flex justify-center mb-3 pt-8 font-bold text-3xl text-blue-400">
             CheckMate
           </h2>
@@ -114,13 +112,13 @@ export default function Work() {
             >
               {" "}
               <span className=" text-white bg-blue-400 text-xs  hover:bg-blue-500 rounded-full py-2 px-4">
-                App in action!
+                Visit App
               </span>
             </a>
           </h6>
         </div>
 
-        <div>
+        <div className="rounded-xl bg-blue-100 m-10">
           <h2 className="flex justify-center mb-3 pt-8 font-bold text-3xl text-blue-400">
             Ensemble
           </h2>
