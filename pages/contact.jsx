@@ -32,9 +32,11 @@ export default function Contact() {
       <h1 className="m-8 py-6 text-center text-4xl text-blue-400">
         {`Haven't had enough yet, eh?`}
       </h1>
-
+      <h1 class="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
+        hellohellohellohellohellohellohelloem
+      </h1>
       <marquee>
-        <div className="flex flex-row justify-around m-10">
+        <div className="flex flex-row justify-around mt-24">
           <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
             <a
               href="mailto:emilylanekiss@gmail.com? subject= subject text"
@@ -76,7 +78,10 @@ export default function Contact() {
           </p>
         </div>
       </marquee>
-     
+      <h1 class="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
+        hellohellohellohellohellohellohelloem
+      </h1>
+
       <h1 className="mt-8 text-center text-3xl font-semibold text-white"></h1>
     </div>
   )
