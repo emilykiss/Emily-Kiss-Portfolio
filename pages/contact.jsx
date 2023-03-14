@@ -37,6 +37,14 @@ export default function Contact() {
       </h1>
       <marquee>
         <div className="flex flex-row justify-around mt-24">
+          <Image
+            src="/plane.png"
+            className=""
+            alt="cr"
+            width={100}
+            height={60}
+          />
+
           <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
             <a
               href="mailto:emilylanekiss@gmail.com? subject= subject text"
