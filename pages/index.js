@@ -14,15 +14,39 @@ export default function Home() {
         <link rel="icon" href="/emily.jpg" />
       </Head>
       <main className="">
-        <div className="centered">
-          <h2></h2>
-          {/* <Image
-            src="/emily.jpg"
-            alt="This is a picture of me."
-            width={1400}
-            height={1450}
-            className="opacity-80 rounded-2xl"
-          /> */}
+
+        <div>
+          
+        </div>
+
+
+
+
+
+
+
+
+
+        <div className="split left">
+         
+          <div className="centered">
+            <h2></h2>
+            <Image
+              src="/emily.jpg"
+              alt="This is a picture of me."
+              width={1400}
+              height={1450}
+              className="opacity-80 rounded-2xl"
+            />
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+
+        <div className="split right">
+         
           <div className="centered">
             <h2 className="tracking-widest mb-4 text-7xl text-blue-400">
               Emily Kiss
@@ -40,9 +64,6 @@ export default function Home() {
             </h6>
           </div>
         </div>
-
-       
-
       </main>
     </div>
   )

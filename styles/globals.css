@@ -28,7 +28,7 @@ a {
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 0;
+ 
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -37,18 +37,14 @@ a {
 .left {
   left: 0;
   background-color: rgba(241, 242, 247, 0.547);
-  border-left: solid 2rem rgba(128, 169, 244);
-  border-top: solid 2rem rgba(128, 169, 244);
-  border-bottom: solid 2rem rgba(128, 169, 244);
+
 }
 
 /* Control the right side */
 .right {
   right: 0;
   background-color:rgba(201, 205, 223, 0.547);
-  border-top: solid 2rem rgba(128, 169, 244);
-  border-right: solid 2rem rgba(128, 169, 244);
-  border-bottom: solid 2rem rgba(128, 169, 244);
+  
 }
 
 /* If you want the content centered horizontally and vertically */
