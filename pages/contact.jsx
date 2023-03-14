@@ -4,33 +4,10 @@ import Link from "next/link"
 export default function Contact() {
   return (
     <div>
-      <div className="py-14 flex justify-center">
-        <Link href="/">
-          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Home
-          </span>
-        </Link>
 
-        <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            About
-          </span>
-        </Link>
-        <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Work
-          </span>
-        </Link>
 
-        <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Contact
-          </span>
-        </Link>
-      </div>
-
-      <h1 className="m-8 text-center text-4xl text-blue-400">
-        {`Haven't had enough yet, eh?`}
+      <h1 className="m-8 pt-16 text-center text-4xl text-blue-400">
+        {`Wanna chat?`}
       </h1>
       <h1 className="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
         hellohellohellohellohellohellohelloem

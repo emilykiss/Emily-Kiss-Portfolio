@@ -4,32 +4,8 @@ import Link from "next/link"
 export default function About() {
   return (
     <div className="bg-blue-300">
-      <div className="py-14 flex justify-center ">
-        <Link href="/">
-          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-white hover:text-blue-500 hover:animate-pulse">
-            Home
-          </span>
-        </Link>
-
-        <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-500  hover:animate-pulse">
-            About
-          </span>
-        </Link>
-        <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-white hover:text-blue-500  hover:animate-pulse">
-            Work
-          </span>
-        </Link>
-
-        <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-white hover:text-blue-500 hover:animate-pulse">
-            Contact
-          </span>
-        </Link>
-      </div>
-
-      <h2 className=" text-center text-4xl text-white font-bold sm:mx-24 md:mx-48 ">
+      
+      <h2 className="pt-14 text-center text-4xl text-white font-bold sm:mx-24 md:mx-48 ">
         {`Hey there, I'm Emily!`}
       </h2>
 

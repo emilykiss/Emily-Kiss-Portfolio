@@ -2,37 +2,11 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "../styles/Home.module.css"
 
+
 export default function Work() {
   return (
     <main>
-      {/* <div className="split left"> */}
-      <div className="text-center py-14">
-        <Link href="/">
-          <span className="px-3  text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Home
-          </span>
-        </Link>
-
-        <Link href="/work">
-          <span className="px-3 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Work
-          </span>
-        </Link>
-
-        <Link href="/about">
-          <span className="px-3  text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            About
-          </span>
-        </Link>
-
-        <Link href="/contact">
-          <span className="px-3 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-            Contact
-          </span>
-        </Link>
-      </div>
-      
-
+  
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-blue-100 rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-3xl pl-4 text-blue-400">

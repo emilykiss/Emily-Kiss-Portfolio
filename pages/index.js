@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css"
 import "@fontsource/press-start-2p"
 import Link from "next/link"
 
+
 export default function Home() {
   return (
     <div className="">
@@ -13,50 +14,15 @@ export default function Home() {
         <link rel="icon" href="/emily.jpg" />
       </Head>
       <main className="">
-        <div className="split left">
-          <div className="flex justify-end">
-            <Link href="/">
-              <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-                Home
-              </span>
-            </Link>
-
-            <Link href="/work">
-              <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-                Work
-              </span>
-            </Link>
-          </div>
-          <div className="centered">
-            <h2></h2>
-            <Image
-              src="/emily.jpg"
-              alt="This is a picture of me."
-              width={1400}
-              height={1450}
-              className="opacity-80 rounded-2xl"
-            />
-          </div>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-        </div>
-
-        <div className="split right">
-          <div className="flex justify-start">
-            <Link href="/about">
-              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-                About
-              </span>
-            </Link>
-
-            <Link href="/contact">
-              <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
-                Contact
-              </span>
-            </Link>
-          </div>
+        <div className="centered">
+          <h2></h2>
+          {/* <Image
+            src="/emily.jpg"
+            alt="This is a picture of me."
+            width={1400}
+            height={1450}
+            className="opacity-80 rounded-2xl"
+          /> */}
           <div className="centered">
             <h2 className="tracking-widest mb-4 text-7xl text-blue-400">
               Emily Kiss
@@ -74,6 +40,9 @@ export default function Home() {
             </h6>
           </div>
         </div>
+
+       
+
       </main>
     </div>
   )
