@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Contact() {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="py-14 flex justify-center">
         <Link href="/">
           <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
             Home
@@ -29,7 +29,7 @@ export default function Contact() {
         </Link>
       </div>
 
-      <h1 className="m-8 pt-10 text-center text-4xl text-blue-400">
+      <h1 className="m-8 text-center text-4xl text-blue-400">
         {`Haven't had enough yet, eh?`}
       </h1>
       <h1 className="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">

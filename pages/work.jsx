@@ -6,31 +6,32 @@ export default function Work() {
   return (
     <main>
       {/* <div className="split left"> */}
-      <div className="text-center pb-14">
+      <div className="text-center py-14">
         <Link href="/">
-          <span className="px-3  py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
+          <span className="px-3  text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
             Home
           </span>
         </Link>
 
         <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
+          <span className="px-3 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
             Work
           </span>
         </Link>
 
         <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
+          <span className="px-3  text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
             About
           </span>
         </Link>
 
         <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
+          <span className="px-3 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-500 hover:animate-pulse">
             Contact
           </span>
         </Link>
       </div>
+      
 
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-blue-100 rounded-xl m-10">
@@ -76,6 +77,7 @@ export default function Work() {
           </h6>
         </div>
       </div>
+      
 
       <div className="grid grid-cols-2 gap-1">
         <div className="bg-blue-100 rounded-xl m-10">
