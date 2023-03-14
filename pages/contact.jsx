@@ -29,7 +29,7 @@ export default function Contact() {
         </Link>
       </div>
 
-      <h1 className="m-8 py-6 text-center text-4xl text-blue-400">
+      <h1 className="m-8 pt-10 text-center text-4xl text-blue-400">
         {`Haven't had enough yet, eh?`}
       </h1>
       <h1 className="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">

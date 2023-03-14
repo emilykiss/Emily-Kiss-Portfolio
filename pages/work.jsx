@@ -54,7 +54,7 @@ export default function Work() {
             </Link>
           </h6>
         </div>
-        <div className="border bg-blue-100 rounded-xl m-10">
+        <div className=" bg-blue-100 rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-3xl text-blue-400">
             Pet Connection
           </h2>
