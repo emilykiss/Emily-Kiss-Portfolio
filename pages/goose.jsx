@@ -4,30 +4,7 @@ import Link from "next/link"
 export default function Goose() {
   return (
     <div>
-      <div className="flex justify-center">
-        <Link href="/">
-          <span className="px-3 py-2 text-xs justify-end uppercase font-bold leading-snug text-blue-400 hover:text-blue-400 hover:animate-pulse">
-            Home
-          </span>
-        </Link>
-
-        <Link href="/about">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-400 hover:animate-pulse">
-            About
-          </span>
-        </Link>
-        <Link href="/work">
-          <span className="px-3 py-2 justify-end text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-400 hover:animate-pulse">
-            Work
-          </span>
-        </Link>
-
-        <Link href="/contact">
-          <span className="px-3 py-2 text-xs uppercase font-bold leading-snug text-blue-400 hover:text-blue-400 hover:animate-pulse">
-            Contact
-          </span>
-        </Link>
-      </div>
+      
       <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-blue-400">
         GooseCake Bakery
       </h2>
