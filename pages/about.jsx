@@ -29,11 +29,11 @@ export default function About() {
         </Link>
       </div>
 
-      <h2 className=" text-center text-4xl  mb-14 text-white font-bold sm:mx-24 md:mx-48 ">
+      <h2 className=" text-center text-4xl text-white font-bold sm:mx-24 md:mx-48 ">
         {`Hey there, I'm Emily!`}
       </h2>
 
-      <div className="text-white">
+      {/* <div className="text-white">
         <p className="flex justify-center">
           <Image
             src="/em.jpg"
@@ -43,7 +43,7 @@ export default function About() {
             height={300}
           />
         </p>
-      </div>
+      </div> */}
 
       <h2 className="text-center pt-12 pb-10 text-xl text-white font-bold m-4 sm:mx-24 md:mx-48">
         {`Besides for creating outstanding user experiences through clean code and user-focused designs, I'm a`}
