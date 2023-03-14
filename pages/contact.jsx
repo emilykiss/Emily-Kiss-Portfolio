@@ -32,7 +32,7 @@ export default function Contact() {
       <h1 className="m-8 py-6 text-center text-4xl text-blue-400">
         {`Haven't had enough yet, eh?`}
       </h1>
-      <h1 class="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
+      <h1 className="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
         hellohellohellohellohellohellohelloem
       </h1>
       <marquee>
@@ -78,7 +78,7 @@ export default function Contact() {
           </p>
         </div>
       </marquee>
-      <h1 class="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
+      <h1 className="underline text-white text-8xl underline-offset-8 decoration-wavy decoration-sky-200">
         hellohellohellohellohellohellohelloem
       </h1>
 

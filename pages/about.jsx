@@ -29,7 +29,7 @@ export default function About() {
         </Link>
       </div>
 
-      <h2 className=" text-center text-4xl mt-10 mb-4 text-blue-400 font-bold sm:mx-24 md:mx-48 ">
+      <h2 className=" text-center text-4xl mt-10 mb-14 text-blue-400 font-bold sm:mx-24 md:mx-48 ">
         {`Hey there, I'm Emily!`}
       </h2>
 
