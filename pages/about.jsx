@@ -30,7 +30,7 @@ export default function About() {
           <div className="text-white text-sm">
             <Image
               src="/pastry.jpeg"
-              className="rounded-3xl"
+              className="rounded-xl"
               alt="emily"
               width={120}
               height={160}
@@ -42,7 +42,7 @@ export default function About() {
           <div className="text-white text-sm">
             <Image
               src="/ruby.png"
-              className="rounded-3xl"
+              className="rounded-xl"
               alt="emily"
               width={120}
               height={160}
@@ -54,7 +54,7 @@ export default function About() {
           <div className="text-white text-sm">
             <Image
               src="/meme.jpg"
-              className="rounded-3xl"
+              className="rounded-xl"
               alt="emily"
               width={120}
               height={160}
@@ -66,7 +66,7 @@ export default function About() {
           <div className="text-white text-sm">
             <Image
               src="/h.jpeg"
-              className="rounded-3xl"
+              className="rounded-xl"
               alt="emily"
               width={120}
               height={160}
