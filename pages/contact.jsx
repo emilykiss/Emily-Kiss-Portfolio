@@ -4,8 +4,6 @@ import Link from "next/link"
 export default function Contact() {
   return (
     <div>
-
-
       <h1 className="m-8 pt-16 text-center text-4xl text-blue-400">
         {`Wanna chat?`}
       </h1>
@@ -22,7 +20,7 @@ export default function Contact() {
             height={60}
           />
 
-          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400 animate-pulse">
             <a
               href="mailto:emilylanekiss@gmail.com? subject= subject text"
               target="_blank"
@@ -32,7 +30,7 @@ export default function Contact() {
             </a>
           </p>
 
-          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400 animate-pulse">
             <a
               href="https://github.com/emilykiss"
               target="_blank"
@@ -42,7 +40,7 @@ export default function Contact() {
             </a>
           </p>
 
-          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400 animate-pulse">
             <a
               href="https://www.linkedin.com/in/emily-kiss/"
               target="_blank"
@@ -52,7 +50,7 @@ export default function Contact() {
             </a>
           </p>
 
-          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400">
+          <p className="flex justify-center text-3xl font-semibold hover:text-blue-500 text-blue-400 animate-pulse">
             <a
               href="https://www.instagram.com/emilylanekiss/"
               target="_blank"

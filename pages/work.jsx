@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css"
 
 export default function Work() {
   return (
-    <main className="bg-blue-200">
+    <main className="bg-blue-400">
       <h2 className="flex justify-center text-center font-bold pt-12 text-5xl pl-4 text-white">
       Recent Work
       </h2>
