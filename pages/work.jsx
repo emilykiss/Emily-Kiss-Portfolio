@@ -6,6 +6,9 @@ import styles from "../styles/Home.module.css"
 export default function Work() {
   return (
     <main className="bg-blue-200">
+      <h2 className="flex justify-center text-center font-bold pt-12 text-5xl pl-4 text-white">
+      Recent Work
+      </h2>
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-white rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-3xl pl-4 text-blue-400">

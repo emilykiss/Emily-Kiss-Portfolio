@@ -62,7 +62,7 @@ export default function Goose() {
           rel="noopener noreferrer"
         >
           {" "}
-          <span className="tracking-widest text-white text-xs bg-blue-400 hover:text-black hover:bg-blue-500 rounded-full py-2 px-4">
+          <span className="tracking-widest text-white text-xs bg-blue-400 hover:bg-blue-500 rounded-full py-2 px-4">
             Figma Prototype
           </span>
         </a>
