@@ -17,7 +17,7 @@ export default function Work() {
           <div className="m-8 flex justify-center">
             <Image
               src="/s2.png"
-              className="rounded-3xl"
+              className="rounded-1xl"
               alt="sb"
               width={300}
               height={600}
@@ -38,7 +38,7 @@ export default function Work() {
           <div className="m-8 flex justify-center">
             <Image
               src="/bruce.png"
-              className="rounded-3xl"
+              className="rounded-1xl"
               alt="sb"
               width={300}
               height={600}
