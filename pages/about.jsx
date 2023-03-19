@@ -16,7 +16,7 @@ export default function About() {
         Bootstrap, Tailwind and MongoDB. After graduating from General Assembly, I enrolled in Google's UX Design Professional Certificate Course, where I learned about the processes used to design high quality and user focused applications.`}
       </div>
       
-      <div className="bg-blue-300">
+      <div className="">
         <h5 className="pt-2 text-center font-bold text-white mt-4 text-2xl sm:mx-24 md:mx-48">
           Languages{" "}
         </h5>
@@ -35,7 +35,7 @@ export default function About() {
         <h5 className="text-center font-bold text-white text-2xl sm:mx-24 md:mx-48">
           Other Skills{" "}
         </h5>
-        <h5 className="text-white bg-blue-300 text-center m-2">
+        <h5 className="text-white text-center m-2">
           Figma | RESTful APIs | Mongoose | Heroku | Sketch | Tailwind |
           Bootstrap | Responsive Design | Adobe Creative Suite
         </h5>

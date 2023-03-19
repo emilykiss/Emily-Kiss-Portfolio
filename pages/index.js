@@ -50,7 +50,7 @@ export default function Home() {
         <div className="split right">
          
           <div className="centered">
-            <h2 className="tracking-widest mb-4 text-7xl text-blue-400">
+            <h2 className=" mb-4 text-6xl text-blue-400">
               Emily Kiss
             </h2>
             <p className="tracking-widest text-blue-400 text-4xl italic mb-8">
