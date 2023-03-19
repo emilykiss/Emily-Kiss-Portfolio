@@ -11,7 +11,7 @@ export default function Work() {
       </h2>
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-white rounded-xl m-10">
-          <h2 className="flex justify-center text-center font-bold pt-12 text-3xl pl-4 text-blue-400">
+          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl pl-4 text-blue-400">
             GooseCake Bakery
           </h2>
           <div className="m-8 flex justify-center">
@@ -25,14 +25,14 @@ export default function Work() {
           </div>
           <h6 className="text-center m-6">
             <Link href="/goose">
-              <span className=" text-white text-xs hover:text-white hover:bg-blue-500 bg-blue-400 rounded-full py-2 px-4">
+              <span className=" text-white text-xs hover:text-white hover:bg-blue-500 bg-blue-400 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
           </h6>
         </div>
         <div className=" bg-white rounded-xl m-10">
-          <h2 className="flex justify-center text-center font-bold pt-12 text-3xl text-blue-400">
+          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
             Pet Connection
           </h2>
           <div className="m-8 flex justify-center">
@@ -46,7 +46,7 @@ export default function Work() {
           </div>
           <h6 className="text-center  m-6">
             <Link href="/pet">
-              <span className="text-white bg-blue-400 text-xs hover:text-white hover:bg-blue-500 rounded-full py-2 px-4">
+              <span className="text-white bg-blue-400 text-xs hover:text-white hover:bg-blue-500 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
@@ -56,7 +56,7 @@ export default function Work() {
 
       <div className="grid grid-cols-2 gap-1">
         <div className="bg-white rounded-xl m-10">
-          <h2 className="flex justify-center mb-3 pt-8 font-bold text-3xl text-blue-400">
+          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
             CheckMate
           </h2>
           <div className="m-8 flex justify-center">
@@ -76,7 +76,7 @@ export default function Work() {
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white bg-blue-400 text-xs  hover:bg-blue-500 rounded-full py-2 px-4">
+              <span className=" text-white bg-blue-400 text-xs  hover:bg-blue-500 rounded-full py-2 px-2">
                 Visit App
               </span>
             </a>
@@ -84,7 +84,7 @@ export default function Work() {
         </div>
 
         <div className="rounded-xl bg-white m-10">
-          <h2 className="flex justify-center mb-3 pt-8 font-bold text-3xl text-blue-400">
+          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
             Ensemble
           </h2>
           <div className="m-8 flex justify-center">
@@ -104,7 +104,7 @@ export default function Work() {
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white bg-blue-400 text-xs hover:bg-blue-500 rounded-full py-2 px-4">
+              <span className=" text-white bg-blue-400 text-xs hover:bg-blue-500 rounded-full py-2 px-2">
                 Organize!
               </span>
             </a>
