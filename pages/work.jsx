@@ -10,13 +10,13 @@ export default function Work() {
       Recent Work
       </h2>
       <div className="grid grid-cols-2 gap-1">
-        <div className=" bg-white rounded-xl m-10">
+        <div className=" bg-black rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
             GooseCake Bakery
           </h2>
           <div className="m-8 flex justify-center">
             <Image
-              src="/s22.jpg"
+              src="/s2.png"
               className="rounded-3xl"
               alt="sb"
               width={300}
@@ -31,13 +31,13 @@ export default function Work() {
             </Link>
           </h6>
         </div>
-        <div className=" bg-white rounded-xl m-10">
+        <div className=" bg-black rounded-xl m-10">
           <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
             Pet Connection
           </h2>
           <div className="m-8 flex justify-center">
             <Image
-              src="/bru.jpg"
+              src="/bruce.png"
               className="rounded-3xl"
               alt="sb"
               width={300}
@@ -55,14 +55,14 @@ export default function Work() {
       </div>
 
       <div className="grid grid-cols-2 gap-1">
-        <div className="bg-white rounded-xl m-10">
+        <div className="bg-black rounded-xl m-10">
           <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
             CheckMate
           </h2>
           <div className="m-8 flex justify-center">
             <Image
               src="/cm.png"
-              className="rounded-3xl"
+              className="rounded-2xl"
               alt="sb"
               width={500}
               height={400}
@@ -83,14 +83,14 @@ export default function Work() {
           </h6>
         </div>
 
-        <div className="rounded-xl bg-white m-10">
+        <div className="rounded-xl bg-black m-10">
           <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
             Ensemble
           </h2>
           <div className="m-8 flex justify-center">
             <Image
               src="/en.png"
-              className="rounded-3xl"
+              className="rounded-2xl"
               alt="sb"
               width={500}
               height={400}
