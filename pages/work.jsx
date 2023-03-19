@@ -11,7 +11,7 @@ export default function Work() {
       </h2>
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-white rounded-xl m-10">
-          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl pl-4 text-blue-400">
+          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
             GooseCake Bakery
           </h2>
           <div className="m-8 flex justify-center">
