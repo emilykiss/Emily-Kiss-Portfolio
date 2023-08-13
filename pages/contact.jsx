@@ -7,8 +7,8 @@ export default function Contact() {
       <h1 className="pt-24 pb-24 text-center text-4xl text-white">
         {`Wanna chat?`}
       </h1>
-      <div className="flex flex-row justify-around ">
-<marquee >
+      <div className="">
+
         <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse">
           <a
             href="mailto:emilylanekiss@gmail.com? subject= subject text"
@@ -48,8 +48,7 @@ export default function Contact() {
             Instagram
           </a>
         </p>
-</marquee>
-        
+
         <div className="bg-gradient-to-r from-red-500 via-red-400 to-orange-500 pt-64 pb-64"></div>
       </div>
     </div>
