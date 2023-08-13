@@ -34,11 +34,11 @@ export default function Home() {
           <div className="centered">
             <h2></h2>
             <Image
-              src="/emily.jpg"
+              src="/em.jpg"
               alt="This is a picture of me."
-              width={1400}
-              height={1450}
-              className="opacity-80 rounded-2xl"
+              width={1000}
+              height={1500}
+              className="opacity-70 rounded-2xl"
             />
           </div>
           <br></br>
