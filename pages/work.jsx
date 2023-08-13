@@ -5,13 +5,13 @@ import styles from "../styles/Home.module.css"
 
 export default function Work() {
   return (
-    <main className="bg-blue-400">
+    <main className="bg-gradient-to-r from-red-500 via-red-400 to-orange-500">
       <h2 className="flex justify-center text-center font-bold pt-12 text-5xl pl-4 text-white">
-      Recent Work
+        Recent Work
       </h2>
       <div className="grid grid-cols-2 gap-1">
         <div className=" bg-black rounded-xl m-10">
-          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
+          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-white">
             GooseCake Bakery
           </h2>
           <div className="m-8 flex justify-center">
@@ -25,14 +25,14 @@ export default function Work() {
           </div>
           <h6 className="text-center m-6">
             <Link href="/goose">
-              <span className=" text-white text-xs hover:text-white hover:bg-blue-500 bg-blue-400 rounded-full py-2 px-2">
+              <span className=" text-white text-xs hover:text-white hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
           </h6>
         </div>
         <div className=" bg-black rounded-xl m-10">
-          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-blue-400">
+          <h2 className="flex justify-center text-center font-bold pt-12 text-2xl text-white">
             Pet Connection
           </h2>
           <div className="m-8 flex justify-center">
@@ -46,7 +46,7 @@ export default function Work() {
           </div>
           <h6 className="text-center  m-6">
             <Link href="/pet">
-              <span className="text-white bg-blue-400 text-xs hover:text-white hover:bg-blue-500 rounded-full py-2 px-2">
+              <span className="text-white text-xs hover:text-white hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
@@ -56,7 +56,7 @@ export default function Work() {
 
       <div className="grid grid-cols-2 gap-1">
         <div className="bg-black rounded-xl m-10">
-          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
+          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-white">
             CheckMate
           </h2>
           <div className="m-8 flex justify-center">
@@ -76,7 +76,7 @@ export default function Work() {
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white bg-blue-400 text-xs  hover:bg-blue-500 rounded-full py-2 px-2">
+              <span className=" text-white text-xs hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
                 Visit App
               </span>
             </a>
@@ -84,7 +84,7 @@ export default function Work() {
         </div>
 
         <div className="rounded-xl bg-black m-10">
-          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-blue-400">
+          <h2 className="flex justify-center mb-3 pt-8 font-bold text-2xl text-white">
             Ensemble
           </h2>
           <div className="m-8 flex justify-center">
@@ -99,12 +99,12 @@ export default function Work() {
 
           <h6 className="text-center m-6">
             <a
-              href="https://62d72ddfb37fce2eea6ee563--ensemble-closet.netlify.app/"
+              href="https://62d72ddfb37fce2eea6ee563--ensemble-closet.netlify.app/register"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white bg-blue-400 text-xs hover:bg-blue-500 rounded-full py-2 px-2">
+              <span className=" text-white  text-xs hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
                 Organize!
               </span>
             </a>

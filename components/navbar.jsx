@@ -7,11 +7,10 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false)
   return (
     <div>
-      <nav className="w-full bg-blue-400 shadow">
+      <nav className="w-full bg-gradient-to-r from-red-500 via-red-400 to-orange-500">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-4 md:py-8 md:block">
-  
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"

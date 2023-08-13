@@ -3,12 +3,11 @@ import Link from "next/link"
 
 export default function Pet() {
   return (
-    <div>
-      
-      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-blue-400">
+    <div className="bg-gradient-to-r from-red-500 via-red-400 to-orange-500">
+      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-white">
         Pet Connection
       </h2>
-      <h2 className="tracking-widest flex justify-center font-bold text-xl p-2 text-blue-400">
+      <h2 className="tracking-widest flex justify-center font-bold text-xl p-2 text-white">
         Mobile App Design
       </h2>
       <div className="bg-black p-6 text-center">
@@ -62,7 +61,7 @@ export default function Pet() {
           rel="noopener noreferrer"
         >
           {" "}
-          <span className="tracking-widest text-white font-bold text-xs bg-blue-400 hover:bg-blue-500 rounded-full py-2 px-4">
+          <span className="tracking-widest text-white font-bold text-xs bg-red-300 hover:bg-red-500 rounded-full py-2 px-4">
             Figma Prototype
           </span>
         </a>
