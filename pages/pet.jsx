@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Pet() {
   return (
     <div className="bg-gradient-to-r from-red-500 via-red-400 to-orange-500">
-      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl mt-8 text-white">
+      <h2 className="tracking-widest flex justify-center font-bold pt-4 text-4xl text-white">
         Pet Connection
       </h2>
       <h2 className="tracking-widest flex justify-center font-bold text-xl p-2 text-white">
