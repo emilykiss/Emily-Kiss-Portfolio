@@ -8,8 +8,7 @@ export default function Contact() {
         {`Wanna chat?`}
       </h1>
       <div className="">
-
-        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse">
+        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse p-8 pl-72">
           <a
             href="mailto:emilylanekiss@gmail.com? subject= subject text"
             target="_blank"
@@ -19,7 +18,7 @@ export default function Contact() {
           </a>
         </p>
 
-        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse">
+        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse p-8 pr-48">
           <a
             href="https://github.com/emilykiss"
             target="_blank"
@@ -29,7 +28,7 @@ export default function Contact() {
           </a>
         </p>
 
-        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse">
+        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse p-8 pl-48">
           <a
             href="https://www.linkedin.com/in/emily-kiss/"
             target="_blank"
@@ -39,7 +38,7 @@ export default function Contact() {
           </a>
         </p>
 
-        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse">
+        <p className="flex justify-center text-2xl font-semibold hover:text-orange-200 text-white animate-pulse p-8 pr-72">
           <a
             href="https://www.instagram.com/emilylanekiss/"
             target="_blank"

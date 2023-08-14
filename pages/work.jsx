@@ -25,7 +25,7 @@ export default function Work() {
           </div>
           <h6 className="text-center m-6">
             <Link href="/goose">
-              <span className=" text-white text-xs hover:text-white hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
+              <span className=" text-white text-xs hover:text-white hover:bg-red-300 bg-red-400 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
@@ -46,7 +46,7 @@ export default function Work() {
           </div>
           <h6 className="text-center  m-6">
             <Link href="/pet">
-              <span className="text-white text-xs hover:text-white hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
+              <span className="text-white text-xs hover:text-white hover:bg-red-300 bg-red-400 rounded-full py-2 px-2">
                 Case Study
               </span>
             </Link>
@@ -76,7 +76,7 @@ export default function Work() {
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white text-xs hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
+              <span className=" text-white text-xs hover:bg-red-300 bg-red-400 rounded-full py-2 px-2">
                 Visit App
               </span>
             </a>
@@ -104,7 +104,7 @@ export default function Work() {
               rel="noopener noreferrer"
             >
               {" "}
-              <span className=" text-white  text-xs hover:bg-red-400 bg-red-300 rounded-full py-2 px-2">
+              <span className=" text-white  text-xs hover:bg-red-300 bg-red-400 rounded-full py-2 px-2">
                 Organize!
               </span>
             </a>

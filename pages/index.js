@@ -42,7 +42,7 @@ export default function Home() {
             <h6 className="text-center tracking-widest m-6">
               <a
                 href="mailto:emilylanekiss@gmail.com? subject= subject text"
-                className="tracking-widest text-white hover:bg-red-400 bg-red-300  rounded-full py-2 px-4"
+                className="tracking-widest text-white hover:bg-red-200 bg-red-300  rounded-full py-2 px-4"
               >
                 Collaborate
               </a>
